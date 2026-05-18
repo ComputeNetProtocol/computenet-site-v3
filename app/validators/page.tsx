@@ -496,7 +496,7 @@ export default function ValidatorsPage() {
                       </Link>
                     </Button>
                     <Button asChild size="sm" variant="outline" className="gap-2">
-                      <a href="https://github.com/Ahoman01/computenet-validator" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/ComputeNetProtocol/computenet-validator" target="_blank" rel="noopener noreferrer">
                         <Terminal className="w-4 h-4" />
                         GitHub Repo
                       </a>
@@ -525,11 +525,11 @@ export default function ValidatorsPage() {
                     </div>
                     <div className="relative">
                       <pre className="font-mono text-xs bg-background/50 rounded-lg p-4 overflow-x-auto text-primary">
-                        curl -fsSL https://raw.githubusercontent.com/Ahoman01/computenet-validator/main/installer/install-validator.sh | bash
+                        curl -fsSL https://raw.githubusercontent.com/ComputeNetProtocol/computenet-validator/main/installer/install-validator.sh | bash
                       </pre>
                       <button
                         className="absolute top-2 right-2 p-2 rounded-lg bg-background/80 hover:bg-background text-muted-foreground hover:text-foreground transition-colors"
-                        onClick={() => navigator.clipboard.writeText('curl -fsSL https://raw.githubusercontent.com/Ahoman01/computenet-validator/main/installer/install-validator.sh | bash')}
+                        onClick={() => navigator.clipboard.writeText('curl -fsSL https://raw.githubusercontent.com/ComputeNetProtocol/computenet-validator/main/installer/install-validator.sh | bash')}
                         title="Copy command"
                       >
                         <Copy className="w-4 h-4" />

@@ -18,12 +18,12 @@ const footerLinks = {
     { label: "Documentation", href: "/docs" },
     { label: "Getting Started", href: "/docs" },
     { label: "API Reference", href: "/docs" },
-    { label: "GitHub", href: "https://github.com/Ahoman01/-computenet", external: true },
+    { label: "GitHub", href: "https://github.com/ComputeNetProtocol/-computenet", external: true },
   ],
   about: [
     { label: "Philosophy", href: "/about" },
     { label: "Research Preview", href: "/about" },
-    { label: "Open Source", href: "https://github.com/Ahoman01/-computenet", external: true },
+    { label: "Open Source", href: "https://github.com/ComputeNetProtocol/-computenet", external: true },
   ],
 }
 
@@ -48,7 +48,7 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-4 mt-6">
               <Link
-                href="https://github.com/Ahoman01/-computenet"
+                href="https://github.com/ComputeNetProtocol/-computenet"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"

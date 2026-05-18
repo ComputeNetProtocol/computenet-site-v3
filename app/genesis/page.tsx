@@ -238,7 +238,7 @@ export default function GenesisPage() {
                   Validator Setup
                 </Link>
                 <a
-                  href="https://github.com/Ahoman01/computenet-validator"
+                  href="https://github.com/ComputeNetProtocol/computenet-validator"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-card border border-border hover:border-emerald-500/50 text-foreground text-sm font-medium rounded-lg transition-colors"

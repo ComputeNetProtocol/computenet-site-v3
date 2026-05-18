@@ -54,7 +54,7 @@ export function Navigation() {
           {/* Desktop Actions */}
           <div className="hidden lg:flex items-center gap-3">
             <Link
-              href="https://github.com/Ahoman01/-computenet"
+              href="https://github.com/ComputeNetProtocol/-computenet"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-muted-foreground hover:text-foreground transition-colors"
@@ -112,7 +112,7 @@ Research Preview
               })}
               <hr className="border-border/50 my-4" />
               <Link
-                href="https://github.com/Ahoman01/-computenet"
+                href="https://github.com/ComputeNetProtocol/-computenet"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}

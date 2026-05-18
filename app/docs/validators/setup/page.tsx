@@ -71,8 +71,8 @@ export default function ValidatorSetupPage() {
             Install and run a ComputeNet validator with a single command:
           </p>
           <div className="relative bg-background rounded-lg p-4 font-mono text-sm border border-primary/30">
-            <CopyButton text="curl -fsSL https://raw.githubusercontent.com/Ahoman01/computenet-validator/main/installer/install-validator.sh | bash" />
-            <pre className="text-primary overflow-x-auto pr-12 whitespace-pre-wrap break-all">curl -fsSL https://raw.githubusercontent.com/Ahoman01/computenet-validator/main/installer/install-validator.sh | bash</pre>
+            <CopyButton text="curl -fsSL https://raw.githubusercontent.com/ComputeNetProtocol/computenet-validator/main/installer/install-validator.sh | bash" />
+            <pre className="text-primary overflow-x-auto pr-12 whitespace-pre-wrap break-all">curl -fsSL https://raw.githubusercontent.com/ComputeNetProtocol/computenet-validator/main/installer/install-validator.sh | bash</pre>
           </div>
         </div>
 
@@ -193,7 +193,7 @@ export default function ValidatorSetupPage() {
           <h2 className="text-xl font-semibold text-foreground mb-4">Useful Links</h2>
           <div className="grid sm:grid-cols-2 gap-3">
             <a
-              href="https://github.com/Ahoman01/computenet-validator"
+              href="https://github.com/ComputeNetProtocol/computenet-validator"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-background/50 hover:bg-background/80 rounded-lg p-4 transition-colors group"
@@ -203,12 +203,12 @@ export default function ValidatorSetupPage() {
               </div>
               <div className="flex-1 min-w-0">
                 <p className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">Validator GitHub Repo</p>
-                <p className="text-xs text-muted-foreground truncate">github.com/Ahoman01/computenet-validator</p>
+                <p className="text-xs text-muted-foreground truncate">github.com/ComputeNetProtocol/computenet-validator</p>
               </div>
               <ExternalLink className="w-4 h-4 text-muted-foreground" />
             </a>
             <a
-              href="https://github.com/Ahoman01/computenet-docs"
+              href="https://github.com/ComputeNetProtocol/computenet-docs"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-background/50 hover:bg-background/80 rounded-lg p-4 transition-colors group"
@@ -218,7 +218,7 @@ export default function ValidatorSetupPage() {
               </div>
               <div className="flex-1 min-w-0">
                 <p className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">ComputeNet Docs</p>
-                <p className="text-xs text-muted-foreground truncate">github.com/Ahoman01/computenet-docs</p>
+                <p className="text-xs text-muted-foreground truncate">github.com/ComputeNetProtocol/computenet-docs</p>
               </div>
               <ExternalLink className="w-4 h-4 text-muted-foreground" />
             </a>

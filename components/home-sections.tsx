@@ -582,7 +582,7 @@ export function CTASection() {
               </Link>
             </Button>
             <Button asChild variant="ghost" size="lg" className="gap-2">
-              <Link href="https://github.com/Ahoman01/-computenet" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/ComputeNetProtocol/-computenet" target="_blank" rel="noopener noreferrer">
                 <Code className="w-4 h-4" />
                 GitHub
               </Link>
